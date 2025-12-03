@@ -1,12 +1,12 @@
 
- PHASE II — Business Process Modeling
+ # PHASE II — Business Process Modeling
 Project: GoalSaver Plus
-1. Scope Definition
+ ## 1. Scope Definition
 Business Process Modeled:
 
 Savings Deposit, Validation, Interest Application & Loan Eligibility Recommendation
 
-Scope Description:
+  ### Scope Description:
 
 This business process represents how GoalSaver Plus handles customer savings transactions—from the deposit request, validation, recording, and balance update, to the automated interest calculation and loan eligibility recommendation generation.
 
@@ -34,7 +34,7 @@ Eligibility recommendation generated
 
 BI insights for Finance Manager
 
-2. Key Entities & Roles
+ ## 2. Key Entities & Roles
 Entity / User	Role & Responsibility
 Customer	Initiates savings deposit
 Automated PL/SQL System	Validates transaction, updates ledger/balance, calculates interest, evaluates eligibility
@@ -52,7 +52,7 @@ Loan Eligibility Rules Engine
 
 BI Reporting Module
 
-3. Swimlane BPMN Process Description
+ ## 3. Swimlane BPMN Process Description
 Lane 1 – Customer
 
 Start Event: Customer initiates savings deposit
@@ -99,7 +99,7 @@ Analyze BI reports on savings and interest trends
 
 End Event: Financial summary completed
 
-4. Logical Flow & Decision Points
+ ## 4. Logical Flow & Decision Points
 
 Customer triggers process → System validates → Decision: valid or invalid
 
@@ -121,7 +121,7 @@ interest growth
 
 Output forwarded to Finance Manager for BI review
 
-5. One-Page Explanation (Summary)
+ ## 5. One-Page Explanation (Summary)
 
 GoalSaver Plus – Phase II: Business Process Modeling
 
