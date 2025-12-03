@@ -1,0 +1,130 @@
+
+ PHASE II — Business Process Modeling
+Project: GoalSaver Plus
+1. Scope Definition
+Business Process Modeled:
+
+Savings Deposit, Validation, Interest Application & Loan Eligibility Recommendation
+
+Scope Description:
+
+This business process represents how GoalSaver Plus handles customer savings transactions—from the deposit request, validation, recording, and balance update, to the automated interest calculation and loan eligibility recommendation generation.
+
+MIS Relevance:
+
+This process supports financial data management, automated decision-making, transaction accuracy, and BI-driven insights—core MIS components.
+
+Objectives:
+
+Accurately record validated savings deposits
+
+Automate interest calculation based on saving duration
+
+Provide consistent and transparent eligibility recommendations
+
+Ensure proper financial reporting and decision support
+
+Expected Outcomes:
+
+Updated savings ledger and balance
+
+Interest applied periodically
+
+Eligibility recommendation generated
+
+BI insights for Finance Manager
+
+2. Key Entities & Roles
+Entity / User	Role & Responsibility
+Customer	Initiates savings deposit
+Automated PL/SQL System	Validates transaction, updates ledger/balance, calculates interest, evaluates eligibility
+System Administrator	Maintains system rules, interest rates, and eligibility configurations; reviews logs
+Finance Manager	Reviews BI reports, monitors interest payouts and eligibility patterns
+Systems & Data Sources
+
+Customer Accounts Table
+
+Savings Ledger
+
+Interest Calculation Scheduler/Trigger
+
+Loan Eligibility Rules Engine
+
+BI Reporting Module
+
+3. Swimlane BPMN Process Description
+Lane 1 – Customer
+
+Start Event: Customer initiates savings deposit
+
+Submit deposit request
+
+Lane 2 – Automated PL/SQL System
+
+Receive deposit data
+
+Decision Gateway: Validate Deposit
+
+If invalid → Notify “Deposit Rejected” → End
+
+If valid → Continue
+
+Record deposit in savings ledger
+
+Update account balance
+
+Scheduled interest calculation process runs
+
+Apply interest based on saving duration rules
+
+Recalculate updated balance
+
+Evaluate customer loan eligibility using rules engine
+
+Generate recommendation report
+
+Lane 3 – System Administrator
+
+Monitor logs and system status
+
+Update interest rates, saving rules, and eligibility formulas
+
+Approve or modify system configuration updates
+
+Lane 4 – Finance Manager
+
+Review system-generated recommendations
+
+Analyze BI reports on savings and interest trends
+
+End Event: Financial summary completed
+
+4. Logical Flow & Decision Points
+
+Customer triggers process → System validates → Decision: valid or invalid
+
+Valid deposits feed ledger and balance updates
+
+Interest calculation depends on:
+
+saving duration
+
+system-defined interest rules
+
+Loan eligibility depends on:
+
+savings amount
+
+consistency
+
+interest growth
+
+Output forwarded to Finance Manager for BI review
+
+5. One-Page Explanation (Summary)
+
+GoalSaver Plus – Phase II: Business Process Modeling
+
+This phase focuses on modeling the savings deposit and interest workflow. The process begins when a customer submits a deposit, which is then validated by the Automated PL/SQL System. Valid deposits are recorded in the ledger and the customer's balance is updated. A scheduled component applies interest based on saving duration and system-defined rules. After interest posting, the system evaluates the customer’s loan eligibility automatically.
+
+The System Administrator maintains configurations such as interest rates and eligibility rules, while the Finance Manager reviews BI dashboards showing interest payouts, saving patterns, and eligibility insights. This business process supports MIS needs through automation, accuracy, decision support, and analytics. It also offers BI opportunities such as trend analysis, customer segmentation, performance evaluation, and policy optimization
