@@ -121,7 +121,7 @@ interest growth
 
 Output forwarded to Finance Manager for BI review
 
- ## 5. One-Page Explanation (Summary)
+ ## 5. One-Page Explanation 
 
 GoalSaver Plus – Phase II: Business Process Modeling
 
