@@ -274,6 +274,7 @@ Audit Design
 
 ## 📌 7. ER Diagram Description (for Lucidchart/Draw.io)
 
+<img width="2974" height="3818" alt="Untitled diagram-2025-12-04-160754" src="https://github.com/user-attachments/assets/51bfc7e0-defc-48f4-b3fd-23daef516563" />
 
 
 
