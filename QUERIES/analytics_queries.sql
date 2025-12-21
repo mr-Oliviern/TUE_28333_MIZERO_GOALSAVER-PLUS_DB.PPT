@@ -3,6 +3,7 @@ SELECT account_id, member_id, account_amount
 FROM account
 WHERE account_amount < 1000;
 
+
 -- 2. Loan requests pending approval
 SELECT loan_id, account_id, loan_amount, loan_date
 FROM loan
