@@ -12,3 +12,5 @@ JOIN account a
 JOIN account_transaction t
     ON a.account_id = t.account_id
 ORDER BY m.member_id;
+
+SELECT * FROM audit_log ORDER BY  audit_id;
