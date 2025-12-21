@@ -119,7 +119,8 @@ src="https://github.com/user-attachments/assets/7e974065-4c12-4d44-b1ee-84319ed7
 
 <img width="1280" height="672" alt="performance KPI" src="https://github.com/user-attachments/assets/0886888f-c33d-4974-a52c-b38e1f5340cc" />
 
+ ## project ppt
 
-
+https://drive.google.com/drive/folders/1eu_SLm0-TrbGTCilQDFpc0JIcHVKHeDU
 
 
