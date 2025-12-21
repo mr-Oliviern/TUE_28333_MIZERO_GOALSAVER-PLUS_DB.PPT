@@ -18,12 +18,15 @@ Purpose: Provide a high-level view of savings performance.
 
 ## 2. Loan Management Dashboard
 Purpose: Monitor loan issuance and risk.
+<img width="1280" height="672" alt="EXECUTIVE_SUMMARY" src="https://github.com/user-attachments/assets/c671af38-a204-4e89-9384-bd37bba51625" />
+
 
 ### Metrics Displayed:
 - Total loans disbursed
 - Loan approval vs rejection
 - Outstanding loan balance
 - High-risk borrowers
+<img width="1280" height="672" alt="performance KPI" src="https://github.com/user-attachments/assets/73f5d0d9-7dc4-4150-80b7-88f0a01bbb35" />
 
 ### Visuals:
 - Pie chart (loan status)
